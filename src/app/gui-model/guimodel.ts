@@ -159,6 +159,32 @@ export class GuiModel {
                     }
                     ]
                 },
+                {
+                    "id": "ActivityForm",
+                    "title": "Activity",
+                    "url": "/activity",
+                    "formFieldList": [
+                    {
+                    "id": "name",
+                    "type": "text",
+                    "name": "ActivityName",
+                    "width": 2,
+                    "required": true
+                    },
+                    {
+                    "type": "deleteButton",
+                    "name": "Delete"
+                    },
+                    {
+                    "type": "cancelButton",
+                    "name": "Cancel"
+                    },
+                    {
+                    "type": "okButton",
+                    "name": "Ok"
+                    }
+                    ]
+                },
             ],
             "pageList": [
                 {
@@ -185,6 +211,13 @@ export class GuiModel {
                             "icon": "fa-weixin",
                             "color": "wisteria",
                             "page": "groupspage",
+                        },
+                        {
+                            "type": "button",
+                            "name": "Activity",
+                            "icon": "fa-weixin",
+                            "color": "red",
+                            "page": "activitypage",
                         },
                     ]
                 },
@@ -269,7 +302,24 @@ export class GuiModel {
                         }
                         },
                     ]
-                   },
+                },
+                {
+                    "id": "activitypage",
+                    "elementList": [
+                    {
+                    "type": "backbutton",
+                    },
+                    {
+                    "type": "newButton",
+                    "name": "NewActivity",
+                    "icon": "fa-weixin",
+                    "color": "red",
+                    "form": {
+                    "form": "ActivityForm"
+                    }
+                    }
+                    ]
+                   }
             ]
         }
     };
