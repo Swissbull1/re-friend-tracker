@@ -260,13 +260,23 @@ export class GuiModel {
                             "type": "backbutton",
                         },
                         {
-                            "type": "NewButton",
+                            "type": "button",
                             "name": "EditFriend",
-                            "icon": "fa-home",
+                            "icon": "fa-user",
                             "color": "green",
                             "width": 2,
                             "form": {
                                 "form": "FriendForm"
+                            }
+                        },
+                        {
+                            "type": "newButton",
+                            "name": "AddActivity",
+                            "icon": "fa-user",
+                            "color": "green",
+                            "width": 2,
+                            "form": {
+                                "form": "AddActivityForm"
                             }
                         },
                     ]
