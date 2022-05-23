@@ -167,7 +167,7 @@ export class GuiModel {
                     {
                     "id": "name",
                     "type": "text",
-                    "name": "ActivityName",
+                    "name": "Activity",
                     "width": 2,
                     "required": true
                     },
@@ -279,6 +279,14 @@ export class GuiModel {
                                 "form": "AddActivityForm"
                             }
                         },
+                        {
+                            "type": "list",
+                            "icon": "fa-user",
+                            "color": "red",
+                            "search": true,
+                            "url": "/activity",
+                            "page": "activitypage"
+                        },    
                     ]
                 },
                 {
