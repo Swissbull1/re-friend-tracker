@@ -242,7 +242,7 @@ export class GuiModel {
                             "form": {
                                 "form": "FriendForm"
                             }
-                        },
+                        },  
                         {
                             "type": "list",
                             "icon": "fa-user",
@@ -334,8 +334,7 @@ export class GuiModel {
                         "form": {
                         "form": "ActivityForm"
                         }
-                    },
-                        
+                    },    
                     ]
                    }
             ]
