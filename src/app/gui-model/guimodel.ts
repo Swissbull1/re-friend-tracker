@@ -324,7 +324,18 @@ export class GuiModel {
                     "form": {
                     "form": "ActivityForm"
                     }
-                    }
+                    },
+                    {
+                        "type": "list",
+                        "icon": "fa-weixin",
+                        "color": "red",
+                        "search": true,
+                        "url": "/activity",
+                        "form": {
+                        "form": "ActivityForm"
+                        }
+                    },
+                        
                     ]
                    }
             ]
